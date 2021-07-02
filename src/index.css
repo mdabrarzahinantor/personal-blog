@@ -1,0 +1,31 @@
+@font-face {
+  font-family: RA;
+  src: url(./Assets/RuhulAmin/RuhulAmin/Unicode/Ruhul\ Amin\ Unicode.ttf);
+}
+@font-face {
+  font-family: Al Qalam;
+  src: url(./Assets/Qalam/Qalam/Qalam.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", "RA", "Al Qalam", sans-serif;
+}
+*::-webkit-scrollbar {
+  width: 0.5rem;
+}
+*::-webkit-scrollbar-track {
+  width: 0.5rem;
+  background-color: #f4f4f4;
+}
+*::-webkit-scrollbar-thumb {
+  width: 0.5rem;
+  background-color: #fff;
+  border-radius: 40px;
+}
+.s {
+  display: grid;
+  grid-template-columns: 30px auto;
+  align-items: center;
+}
